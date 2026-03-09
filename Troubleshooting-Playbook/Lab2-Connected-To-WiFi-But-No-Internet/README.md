@@ -29,7 +29,7 @@ ping 192.168.100.20
 Result:
 
 ```
-Request timed out
+Destination Host Unreachable
 ```
 
 Screenshot:
