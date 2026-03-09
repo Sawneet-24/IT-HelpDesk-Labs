@@ -33,7 +33,7 @@ Screenshot:
 Screenshot:
 
 ![Adapter Disabled](images/AdapterDisabled.png)  
-(Optional) IP Config: `IPConfigDisabled.png`
+IP Config: `IPConfigDisabled.png`
 
 ---
 
@@ -52,7 +52,8 @@ Screenshot:
 Screenshot:
 
 ![Email Sent](images/EmailSent.png)  
-(Optional) Network adapter enabled: `AdapterEnabled.png`
+Network adapter enabled: `AdapterEnabled.png`
+IP Config: `IPConfigEnabled.png`
 
 ---
 
