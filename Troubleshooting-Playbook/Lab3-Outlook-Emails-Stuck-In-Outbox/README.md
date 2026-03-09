@@ -51,7 +51,7 @@ IP Config: `IPConfigDisabled.png`
 
 Screenshot:
 
-![Email Sent](images/EmailSent.png)  
+![Email Sent](images/EmailSent.png)
 Network adapter enabled: `AdapterEnabled.png`
 IP Config: `IPConfigEnabled.png`
 
