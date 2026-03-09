@@ -1,6 +1,6 @@
 # IT Help Desk Home Labs
 
-This repository contains hands-on IT Help Desk labs demonstrating troubleshooting, ticketing systems, active directory, microsoft 365 admin basics and other technical skills.
+This repository contains hands on IT Help Desk labs demonstrating troubleshooting, ticketing systems, active directory, microsoft 365 admin basics and other technical skills.
 
 These labs simulate real help desk tickets and document the troubleshooting process.
 
@@ -19,6 +19,6 @@ Ticketing Systems Simulation
 
 ## Tools Used
 
-• Windows 10/11  
+• Windows 10  
 • Windows Server  
 • VirtualBox  
