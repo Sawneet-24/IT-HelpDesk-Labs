@@ -167,7 +167,7 @@ ping 192.168.100.20
 
 ### Troubleshooting Comments
 
-![Troubleshooting Comments](images/TroubleshootingComments2.png)
+![Troubleshooting Comments](images/TicketComments2.png)
 
 ### Ticket Resolved
 
@@ -225,7 +225,7 @@ The issue was resolved by:
 
 ### Troubleshooting Comments
 
-![Troubleshooting Comments](images/TroubleshootingComments3.png)
+![Troubleshooting Comments](images/TicketComments3.png)
 
 ### Ticket Resolved
 
