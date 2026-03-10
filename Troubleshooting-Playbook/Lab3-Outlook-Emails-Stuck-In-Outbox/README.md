@@ -62,8 +62,8 @@ Screenshot:
 
 ## Step 5 – Verify Full Functionality
 
-- Created additional dummy email → moved to Sent  
-- Outbox cleared, emails “sent” successfully  
+- Created additional dummy email and moved to Sent folder
+- Outbox cleared, emails sent successfully  
 
 ---
 
