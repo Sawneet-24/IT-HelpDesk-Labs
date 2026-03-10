@@ -140,7 +140,7 @@ Observed configuration:
 
 ### Ticket Created
 
-![Ticket Created](images/TicketNoInternet.png)
+![Ticket Created](images/TicketCreatedNoInternet.png)
 
 ---
 
