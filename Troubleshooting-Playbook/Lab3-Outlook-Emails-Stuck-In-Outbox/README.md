@@ -27,13 +27,14 @@ Screenshot:
 
 ## Step 2 – Break Network Connectivity
 
-- Disabled network adapter in settings 
+- Disabled network adapter in settings  
 - Ran `ipconfig` resulting in no IPv4 shown  
 
 Screenshot:
 
-![Adapter Disabled](images/AdapterDisabled.png)  
-IP Config: `IPConfigDisabled.png`
+![Adapter Disabled](images/AdapterDisabled.png)
+
+![IP Config Disabled](images/IPConfigDisabled.png)
 
 ---
 
@@ -51,9 +52,11 @@ IP Config: `IPConfigDisabled.png`
 
 Screenshot:
 
-![Email Sent](images/EmailSent.png)  
-Network adapter enabled: `AdapterEnabled.png`  
-IP Config: `IPConfigEnabled.png`  
+![Email Sent](images/EmailSent.png)
+
+![Adapter Enabled](images/AdapterEnabled.png)
+
+![IP Config Enabled](images/IPConfigEnabled.png)
 
 ---
 
@@ -67,12 +70,11 @@ IP Config: `IPConfigEnabled.png`
 ## Step 6 – Document Findings
 
 **Root Cause:** Network adapter disabled resulted in no connectivity  
-**Resolution:** Re-enabled adapter and sent email  
-**Outcome:** Outbox cleared and emails successfully sent
+**Resolution:** Re-enabled adapter and sent email successfully
 
 ---
 
 ## Skills Demonstrated
 
 - Simulated email troubleshooting  
-- Understanding network adapter impact on sending  
+- Understanding network adapter impact on sending
