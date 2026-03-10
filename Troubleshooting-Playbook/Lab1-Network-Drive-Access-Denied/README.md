@@ -102,8 +102,7 @@ The client workstation was able to successfully access the network drive.
 
 - Network troubleshooting
 - File sharing configuration
-- Permission troubleshooting
-- CompTIA troubleshooting methodology
+- Permissions troubleshooting
 
 ---
 
