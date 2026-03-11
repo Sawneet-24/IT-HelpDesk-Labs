@@ -1,8 +1,8 @@
-# Lab 3 – Outlook Emails Stuck in Outbox  
+# Lab 3 – Outlook Emails Stuck in Outbox
 
 ## Scenario
 
-A user reports that they are unable to send emails. Outgoing emails remain stuck in the Outbox while incoming emails are unaffected.
+A user reports that they are unable to send emails in Outlook. Messages remain stuck in the Outbox and are not being delivered.
 
 ---
 
@@ -16,8 +16,8 @@ A user reports that they are unable to send emails. Outgoing emails remain stuck
 
 ## Step 1 – Create Outbox and Dummy Email
 
-- Created folder `Outbox`  
-- Added file `Email.txt` to represent a stuck email  
+- Created folder `Outbox`
+- Added file `Email.txt` to represent a stuck email
 
 Screenshot:
 
@@ -27,8 +27,12 @@ Screenshot:
 
 ## Step 2 – Break Network Connectivity
 
-- Disabled network adapter in settings  
-- Ran `ipconfig` resulting in no IPv4 shown  
+To simulate a connectivity issue:
+
+- Disabled the network adapter in Windows settings
+- Ran the command `ipconfig`
+
+Because the adapter was disabled, no IPv4 address was displayed.
 
 Screenshot:
 
@@ -38,17 +42,21 @@ Screenshot:
 
 ---
 
-## Step 3 – Verify Email Stuck
+## Step 3 – Verify Email Cannot Be Sent
 
-- `Email.txt` remained in `Outbox`  
-- Demonstrates email cannot be sent while offline  
+- `Email.txt` remained in the `Outbox` folder
+- This demonstrates that emails cannot be sent while the computer has no network connectivity
 
 ---
 
-## Step 4 – Fix
+## Step 4 – Fix the Issue
 
-- Re-enabled network adapter  
-- Simulated sending email: moved `Email.txt` to `Sent` folder  
+To restore connectivity:
+
+- Re-enabled the network adapter
+- Confirmed the system received a valid network configuration
+
+Simulated sending the email by moving `Email.txt` from the `Outbox` folder to the `Sent` folder.
 
 Screenshot:
 
@@ -62,19 +70,22 @@ Screenshot:
 
 ## Step 5 – Verify Full Functionality
 
-- Created additional dummy email and moved to Sent folder
-- Outbox cleared, emails sent successfully  
+- Created an additional dummy email and moved it to the `Sent` folder
+- Outbox cleared and emails were successfully "sent"
 
 ---
 
 ## Step 6 – Document Findings
 
-**Root Cause:** Network adapter disabled resulted in no connectivity  
-**Resolution:** Re-enabled adapter and sent email successfully
+**Root Cause:** Network adapter disabled resulted in no network connectivity, preventing emails from being sent.
+
+**Resolution:** Re-enabled the network adapter and verified the system obtained a valid IP configuration.
 
 ---
 
 ## Skills Demonstrated
 
-- Simulated email troubleshooting  
-- Understanding network adapter impact on sending
+- Simulated email troubleshooting
+- Identifying network connectivity issues
+- Using command line tools such as `ipconfig`
+- Restoring network adapter connectivity
