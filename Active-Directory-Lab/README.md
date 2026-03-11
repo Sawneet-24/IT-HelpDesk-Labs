@@ -103,7 +103,7 @@ The script creates multiple Active Directory users, allowing the environment to 
 
 ### PowerShell Script
 
-![PowerShell Script](images/PowerShell Script.png)
+![PowerShell Script](images/PowerShellScript.png)
 
 ---
 
