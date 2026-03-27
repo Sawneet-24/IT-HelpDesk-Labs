@@ -1,4 +1,4 @@
-# IT Help Desk Home Labs
+# IT Support Home Labs
 
 This repository contains hands on IT Help Desk labs demonstrating troubleshooting, ticketing systems, active directory, microsoft 365 admin basics and other technical skills.
 
